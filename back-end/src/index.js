@@ -9,4 +9,4 @@ app.use(cors());
 
 app.use(router);
 
-app.listen(5500);
+app.listen(proccess.env.PORT || 5500);
